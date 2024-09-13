@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
+    @RenderSection("Styles", required: false)
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            background-image: url('/images/tarot_cards/arkaplan.png'); /* Doğru yol */
+            background-size: cover; /* Resmi kapsayacak şekilde ayarlar */
+            background-repeat: no-repeat; /* Tekrar etmesini engeller */
+            background-attachment: fixed; /* Resmi sabitler */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Beyaz arka planı biraz saydam yapar */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+            header h1, footer p {
+                margin: 0;
+            }
+
+        .page-header {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .grid-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #fff;
+        }
+
+            .grid-item.selected {
+                background-color: #d0e0f0;
+            }
+
+            .grid-item input {
+                display: none;
+            }
+
+            .grid-item label {
+                cursor: pointer;
+                display: block;
+                position: relative;
+            }
+
+            .grid-item img {
+                width: 100px;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .grid-item span {
+                display: none;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        @Html.Partial("_Header")
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer>
+        @Html.Partial("_Footer")
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

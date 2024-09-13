@@ -1,0 +1,33 @@
+﻿@model SelTarot.Models.InboxViewModel
+
+<h1>Gelen Kutusu</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Gönderen</th>
+            <th>Mesaj</th>
+            <th>Tarih</th>
+            <th>Yanıtla</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model.ReceivedMessages)
+        {
+            <tr>
+                <td>@message.SenderUserName</td>
+                <td>@message.Content</td>
+                <td>@message.SentDate.ToString("g")</td>
+                <td>
+                    <form asp-action="Reply" method="post">
+                        <input type="hidden" name="SenderId" value="@message.SenderId" />
+                        <input type="hidden" name="ReceiverId" value="@message.ReceiverId" />
+                        <input type="hidden" name="Id" value="@message.Id" />
+                        <textarea name="ReplyContent" class="form-control" placeholder="Yanıtınızı yazın..."></textarea>
+                        <button type="submit" class="btn btn-primary mt-2">Yanıtla</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

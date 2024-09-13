@@ -1,0 +1,13 @@
+﻿@* @model Message
+
+<h2>Falcıya Mesaj Gönder</h2>
+
+<form asp-action="SendMessage" method="post">
+    <input type="hidden" name="fortuneTellerId" value="@ViewBag.FortuneTellerId" />
+    <div>
+        <label for="content">Mesajınız:</label>
+        <textarea name="content" id="content" required></textarea>
+    </div>
+    <button type="submit">Gönder</button>
+</form>
+ *@

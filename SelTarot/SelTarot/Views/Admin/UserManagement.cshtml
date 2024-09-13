@@ -1,0 +1,73 @@
+﻿@model IEnumerable<SelTarot.Models.UserManagementViewModel>
+
+@{
+    ViewData["Title"] = "User Management";
+}
+
+<h2>User Management</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    @if (user.Roles != null && user.Roles.Any())
+                    {
+                        @foreach (var role in user.Roles)
+                        {
+                            <span class="badge bg-primary">@role</span>
+                        }
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">No roles assigned</span>
+                    }
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="User Actions">
+                        @if (!user.Roles.Contains("Falcı"))
+                        {
+                            <form asp-action="AssignFortuneTellerRole" asp-route-userId="@user.UserId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-success">Make Fortune Teller</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-action="RemoveFortuneTellerRole" asp-route-userId="@user.UserId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-warning">Remove Fortune Teller</button>
+                            </form>
+                        }
+
+                        @if (!user.Roles.Contains("Admin"))
+                        {
+                            <form asp-action="AssignAdminRole" asp-route-userId="@user.UserId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-info">Make Admin</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-action="RemoveAdminRole" asp-route-userId="@user.UserId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-dark">Remove Admin</button>
+                            </form>
+                        }
+
+                        <form asp-action="DeleteUser" asp-route-userId="@user.UserId" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+﻿@* @model IEnumerable<Message>
+
+<h2>Mesajlarım</h2>
+
+<ul>
+    @foreach (var message in Model)
+    {
+        <li>
+            <strong>Gönderen:</strong> @message.Sender.UserName<br />
+            <strong>Mesaj:</strong> @message.Content<br />
+            <strong>Tarih:</strong> @message.CreatedDate<br />
+        </li>
+    }
+</ul>
+ *@

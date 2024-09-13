@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SelTarot.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SelTarot.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\Background\\LoginRegister.jpg",
+      "PackagePath": "staticwebassets\\images\\Background\\LoginRegister.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ace_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ace_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ace_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ace_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ace_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ace_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ace_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ace_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Chariot.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Chariot.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Death.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Death.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Devil.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Devil.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Eight_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Eight_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Eight_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Eight_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Eight_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Eight_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Eight_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Eight_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Emperor.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Emperor.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Empress.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Empress.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Five_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Five_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Five_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Five_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Five_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Five_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Five_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Five_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Fool.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Fool.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Four_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Four_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Four_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Four_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Four_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Four_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Four_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Four_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Hanged_Man.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Hanged_Man.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Hermit.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Hermit.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Hierophant.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Hierophant.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\HighPriestess.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\HighPriestess.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\High_Priestess.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\High_Priestess.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Judgement.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Judgement.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Justice.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Justice.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\King_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\King_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\King_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\King_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\King_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\King_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\King_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\King_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Knight_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Knight_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Knight_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Knight_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Knight_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Knight_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Knight_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Knight_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\LoginRegister.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\LoginRegister.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Lovers.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Lovers.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Magician.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Magician.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Moon.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Moon.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Nine_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Nine_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Nine_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Nine_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Nine_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Nine_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Nine_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Nine_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Page_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Page_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Page_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Page_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Page_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Page_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Page_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Page_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Queen_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Queen_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Queen_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Queen_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Queen_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Queen_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Queen_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Queen_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Seven_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Seven_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Seven_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Seven_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Seven_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Seven_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Seven_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Seven_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Six_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Six_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Six_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Six_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Six_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Six_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\SixofWands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\SixofWands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Star.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Star.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Strength.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Strength.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Sun.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Sun.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Temperance.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Temperance.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ten_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ten_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ten_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ten_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ten_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ten_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Ten_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Ten_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Three_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Three_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Three_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Three_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Three_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Three_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Three_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Three_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Tower.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Tower.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Two_of_Cups.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Two_of_Cups.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Two_of_Pentacles.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Two_of_Pentacles.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Two_of_Swords.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Two_of_Swords.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Two_of_Wands.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Two_of_Wands.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\Wheel_of_Fortune.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\Wheel_of_Fortune.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\World.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\World.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\arkaplan.png",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\arkaplan.png"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\images\\tarot_cards\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\tarot_cards\\placeholder.jpg"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Masaüstü\\SelTarot\\SelTarot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SelTarot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SelTarot.props",
+      "PackagePath": "build\\SelTarot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SelTarot.props",
+      "PackagePath": "buildMultiTargeting\\SelTarot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SelTarot.props",
+      "PackagePath": "buildTransitive\\SelTarot.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

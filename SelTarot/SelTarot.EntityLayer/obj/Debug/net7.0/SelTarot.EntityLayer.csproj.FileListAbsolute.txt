@@ -1,0 +1,14 @@
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\bin\Debug\net7.0\SelTarot.EntityLayer.deps.json
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\bin\Debug\net7.0\SelTarot.EntityLayer.runtimeconfig.json
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\bin\Debug\net7.0\SelTarot.EntityLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\bin\Debug\net7.0\SelTarot.EntityLayer.pdb
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.csproj.AssemblyReference.cache
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.AssemblyInfoInputs.cache
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.AssemblyInfo.cs
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.csproj.CoreCompileInputs.cache
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\refint\SelTarot.EntityLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.pdb
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\SelTarot.EntityLayer.genruntimeconfig.cache
+E:\Masaüstü\SelTarot\SelTarot.EntityLayer\obj\Debug\net7.0\ref\SelTarot.EntityLayer.dll

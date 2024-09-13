@@ -1,0 +1,19 @@
+﻿@model SendMessageViewModel
+
+@{
+    ViewData["Title"] = "Send Message";
+}
+
+<h3>Fal baktırmak yada soru sormak istediğiniz kişiyi seçin ardından yazın cevaplar ve yazdıklarınız mesaj kutunuza gelecektir  herhangi bir hata yada sorun ile karşılaşırsanız admine yazabilirsiniz </h3>
+
+<form asp-action="Send">
+    <div class="form-group">
+        <label asp-for="ReceiverId">Falcı</label>
+        <select asp-for="ReceiverId" asp-items="@(new SelectList(Model.Falcilar, "Id", "UserName"))" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"> Sormak istediğiniz soruyu buraya yazın </label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+    <input type="submit" value="Send" class="btn btn-primary" />
+</form>

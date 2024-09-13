@@ -1,0 +1,52 @@
+﻿@{
+    var isAdmin = User.IsInRole("Admin");
+    var isFortuneTeller = User.IsInRole("Falcı"); // Kullanıcının Falcı rolünde olup olmadığını kontrol et
+}
+<header>
+    <div class="navbar">
+        <div class="navbar-brand">
+            <a href="@Url.Action("Index", "Home")">Tarot Sitesi</a>
+        </div>
+        <nav class="navbar-menu">
+            <ul class="navbar-list">
+                <!-- Admin için Kullanıcı Yönetimi bağlantısı -->
+                @if (isAdmin)
+                {
+                    <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Admin" asp-action="UserManagement">Kullanıcı Yönetimi</a></li>
+                }
+
+                <!-- Falcı için Profil Görüntüleme bağlantısı -->
+                @if (isFortuneTeller)
+                {
+                    <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="FortuneTeller" asp-action="ViewProfile">Falcı Profil</a></li>
+                }
+
+                <!-- Genel Bağlantılar -->
+                <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Tarot" asp-action="SevenCardSpread">7 Kart Tarot</a></li>
+                <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Tarot" asp-action="ThreeCardSpread">3 Kart Tarot</a></li>
+                <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Tarot" asp-action="SingleCardSpread">Tek Kart Tarot</a></li>
+                @if (isFortuneTeller)
+                {
+
+                    <a asp-controller="Message" asp-action="FortuneTellerInbox" class="nav-link">Gelen Kutusu</a>
+                }
+                <!-- Kullanıcı Girişine Bağlı İçerik -->
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <!-- Kullanıcıya Özel Hoşgeldin Mesajı ve Mesaj Kutusu Bağlantısı -->
+                    <li class="navbar-item">
+                        <span>Hoşgeldin, @User.Identity.Name!</span>
+                    </li>
+                    <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Message" asp-action="Inbox">Mesaj Kutusu</a></li>
+                }
+                else
+                {
+                    <!-- Giriş ve Kayıt Bağlantıları -->
+                    <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Login" asp-action="Index">Giriş Yap</a></li>
+                    <li class="navbar-item"><a class="nav-link" asp-area="" asp-controller="Register" asp-action="Index">Kayıt Ol</a></li>
+                }
+            </ul>
+        </nav>
+    </div>
+</header>

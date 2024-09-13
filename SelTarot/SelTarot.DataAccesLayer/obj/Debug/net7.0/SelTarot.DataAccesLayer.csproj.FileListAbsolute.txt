@@ -1,0 +1,17 @@
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.DataAccesLayer.deps.json
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.DataAccesLayer.runtimeconfig.json
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.DataAccesLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.DataAccesLayer.pdb
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.EntityLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\bin\Debug\net7.0\SelTarot.EntityLayer.pdb
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.csproj.AssemblyReference.cache
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.AssemblyInfoInputs.cache
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.AssemblyInfo.cs
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.csproj.CoreCompileInputs.cache
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.csproj.CopyComplete
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\refint\SelTarot.DataAccesLayer.dll
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.pdb
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\SelTarot.DataAccesLayer.genruntimeconfig.cache
+E:\Masaüstü\SelTarot\SelTarot.DataAccesLayer\obj\Debug\net7.0\ref\SelTarot.DataAccesLayer.dll

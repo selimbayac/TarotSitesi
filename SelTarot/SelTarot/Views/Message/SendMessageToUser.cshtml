@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SelTarot.EntityLayer.Concrete.User>
+
+@{
+    ViewData["Title"] = "Kullanıcıya Mesaj Gönder";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Kullanıcıya Mesaj Gönder</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["Success"]
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="SendMessageToUser" method="post">
+                <div class="form-group">
+                    <label for="receiverId">Alıcı Seç:</label>
+                    <select class="form-control" id="receiverId" name="receiverId" required>
+                        <option value="">Bir kullanıcı seçin...</option>
+                        @foreach (var user in Model)
+                        {
+                            <option value="@user.Id"> (@user.Id) @user.UserName (@user.Email) </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="content">Mesajınız:</label>
+                    <textarea class="form-control" id="content" name="content" rows="5" placeholder="Mesajınızı buraya yazın..." required></textarea>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,159 @@
+/* Genel stil ayarlarý */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+    .navbar-item a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        .navbar-item a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsive ayarlar */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-menu {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-item a {
+        font-size: 16px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 5px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .grid-item.selected {
+        background-color: #d0e0f0;
+    }
+
+    .grid-item input {
+        display: none;
+    }
+
+    .grid-item label {
+        cursor: pointer;
+        display: block;
+        position: relative;
+    }
+
+    .grid-item img {
+        width: 100px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .grid-item span {
+        display: none;
+    }
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* Mobilde daha az sütun */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Daha küçük ekranlar için daha da az sütun */
+    }
+
+    .grid-item img {
+        width: 80px; /* Daha küçük ekranlarda kart resminin boyutu */
+    }
+}
+
+.card-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+}
+
+    .card img {
+        max-width: 100%;
+    }
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+    .card {
+        width: 120px; /* Daha küçük ekranlarda kart geniþliði */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100px; /* En küçük ekranlar için kart geniþliði */
+    }
+}

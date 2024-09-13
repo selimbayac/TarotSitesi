@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Ana Sayfa";
+}
+
+<h1 class="text-center">Tarot Kartları</h1>
+
+<div class="container">
+    <h2 class="text-center">Tarot Kartlarının Anlamları</h2>
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th class="text-center">İsim ve Görsel</th>
+                <th class="text-center">Açıklama</th>
+                <th class="text-center">Ek Anlam</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var card in ViewBag.Cards)
+            {
+                <tr>
+                    <td>
+                        <h2>@card.Name</h2>
+                        @if (!string.IsNullOrEmpty(card.ImagePath))
+                        {
+                            <img src="@card.ImagePath" alt="@card.Name" class="img-fluid tarot-img" />
+                        }
+                    </td>
+                    <td>@card.Description</td>
+                    <td>@card.AdditionalMeaning</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container text-center mt-4">
+    <h2>Kullanıcı Girişi</h2>
+    <form method="post" action="">
+        <input type="text" name="userInput" placeholder="Bir şeyler yazın" class="form-control w-50 mx-auto" />
+        <button type="submit" class="btn btn-primary mt-2">Gönder</button>
+    </form>
+    @if (ViewBag.UserInput != null)
+    {
+        <p class="mt-3">Giriş: @ViewBag.UserInput</p>
+        <p>Yanıt: @ViewBag.Response</p>
+    }
+</div>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+<!-- Custom CSS -->
+<style>
+    .tarot-img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    h1, h2 {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+</style>

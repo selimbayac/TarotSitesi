@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "7 Kart Yayılımı";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var cards = ViewBag.Cards as List<SelTarot.Models.TarotCard>;
+}
+
+<h2>7 Kart Yayılımı</h2>
+
+<!-- Karıştırma Düğmesi -->
+<button id="shuffleButton">Kartları Karıştır</button>
+
+<!-- Kart Matris -->
+<form id="tarotForm" method="post" asp-controller="Tarot" asp-action="RevealCards">
+    <div class="grid-container" id="cardGrid">
+        @foreach (var card in cards)
+        {
+            <div class="grid-item" data-card-id="@card.Id">
+                <input type="checkbox" name="selectedCardIds" value="@card.Id" id="card-@card.Id" />
+                <label for="card-@card.Id">
+                    <span style="display:none;">@card.Name</span>
+                    <img src="~/images/tarot_cards/placeholder.jpg" alt="Placeholder" />
+                </label>
+            </div>
+        }
+    </div>
+    <button type="submit">Kartları Aç</button>
+</form>
+
+<!-- Kart Sonuçları Bölümü -->
+<div id="cardResults"></div>
+
+@section Scripts {
+    <script>
+        const MAX_SELECTION = 7;
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function shuffleCards() {
+            const cardGrid = document.getElementById('cardGrid');
+            const cardItems = Array.from(cardGrid.querySelectorAll('.grid-item'));
+            const shuffledItems = shuffleArray(cardItems);
+            shuffledItems.forEach(item => cardGrid.appendChild(item));
+        }
+
+        document.getElementById('shuffleButton').onclick = shuffleCards;
+        window.onload = shuffleCards;
+
+        document.querySelectorAll('.grid-item').forEach(item => {
+            item.onclick = function () {
+                const checkbox = this.querySelector('input[type="checkbox"]');
+                const isChecked = checkbox.checked;
+                const selectedCount = document.querySelectorAll('.grid-item input[type="checkbox"]:checked').length;
+
+                if (isChecked) {
+                    checkbox.checked = false;
+                    this.classList.remove('selected');
+                } else {
+                    if (selectedCount < MAX_SELECTION) {
+                        checkbox.checked = true;
+                        this.classList.add('selected');
+                    } else {
+                        alert(`En fazla ${MAX_SELECTION} kart seçebilirsiniz.`);
+                    }
+                }
+            };
+        });
+
+        document.getElementById('tarotForm').onsubmit = function (event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', this.action);
+            xhr.onload = function () {
+                document.getElementById('cardResults').innerHTML = xhr.response;
+            };
+            xhr.send(formData);
+        };
+    </script>
+}
+
+@section Styles {
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(13, 1fr);
+            gap: 5px;
+        }
+
+        .grid-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+            .grid-item.selected {
+                background-color: #d0e0f0;
+            }
+
+            .grid-item input {
+                display: none;
+            }
+
+            .grid-item label {
+                cursor: pointer;
+                display: block;
+                position: relative;
+            }
+
+            .grid-item img {
+                width: 100px;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .grid-item span {
+                display: none;
+            }
+    </style>
+}

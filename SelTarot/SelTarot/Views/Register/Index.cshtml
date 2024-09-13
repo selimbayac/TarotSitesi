@@ -1,0 +1,142 @@
+﻿@model SelTarot.DtoLayer.Dtos.AppUserDtos.AppUserRegisterDto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Kullanıcı Kaydı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('/images/Background/LoginRegister.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .container h1 {
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+
+            .container h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .container label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .container input[type="text"],
+            .container input[type="email"],
+            .container input[type="password"] {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            .container input[type="checkbox"] {
+                margin-right: 10px;
+            }
+
+            .container button {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                background-color: #4CAF50;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+                .container button:hover {
+                    background-color: #45a049;
+                }
+
+            .container .link-container {
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .container a {
+                color: #007BFF;
+                text-decoration: none;
+            }
+
+                .container a:hover {
+                    text-decoration: underline;
+                }
+
+        .terms-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .validation-errors {
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sel Tarot</h1>
+        <h2>Yeni Kullanıcı Kaydı</h2>
+        <form asp-action="Index" asp-controller="Register" method="post">
+            <label for="username">Kullanıcı Adı</label>
+            <input type="text" asp-for="UserName" id="username" name="UserName" required>
+
+            <label for="email">E-posta</label>
+            <input type="email" asp-for="Email" id="email" name="Email" required>
+
+
+            <label for="password">Şifre</label>
+            <input type="password" asp-for="Password" id="password" name="Password" required>
+
+            <label for="confirm-password">Şifre Tekrarı</label>
+            <input type="password" asp-for="ConfirmPassword" id="confirm-password" name="ConfirmPassword" required>
+
+            <div class="validation-errors" asp-validation-summary="ModelOnly"></div>
+
+            <div class="terms-container">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Kullanım şartlarını okudum</label>
+            </div>
+
+            <div class="link-container">
+                <a href="#">Hesabınız var mı?</a>
+            </div>
+
+            <button type="submit">Kayıt Ol</button>
+
+            <div class="link-container">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Ana sayfaya dön</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
